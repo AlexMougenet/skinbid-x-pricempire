@@ -22,5 +22,4 @@ This extension is not affialiated in any way to anything, it's totally independa
   - [ ] Direct buys
 
 ## Known issues at current release
-- Doesn't work for stickers auctions
 - Doesn't work if you don't load/reload the page (and simply navigate through the website)
