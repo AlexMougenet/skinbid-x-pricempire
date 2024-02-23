@@ -23,3 +23,4 @@ This extension is not affialiated in any way to anything, it's totally independa
 
 ## Known issues at current release
 - Doesn't work if you don't load/reload the page (and simply navigate through the website)
+- Doesn't take into account special patterns and finishes (like AK-47 661, or Saphire/Ruby/...)
