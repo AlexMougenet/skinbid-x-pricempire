@@ -22,7 +22,7 @@ waitForElement('.item-bids-time-info .item-detail', 100).then(() => {
 	})
 });
 
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+getBrowser().runtime.onMessage.addListener((message, sender, sendResponse) => {
 	if (message.from === 'pricempire') {
 		addDetails(message.data);
 	}

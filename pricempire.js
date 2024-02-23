@@ -12,10 +12,9 @@ waitForElement('//*[@id="__nuxt"]/div[1]/div[2]/div[3]/div[3]', 100, true).then(
 
   // sort increasing
   listings.sort((a, b) => a.priceINT - b.priceINT);
-  // remove gambling and shit websites
+  // remove shit websites
   const blacklist = ['Clash.gg', 'CSGOEmpire', 'Lis-Skins', 'CSGO500', 'Youpin', 'Market.CSGO', 'Loot.farm'];
   listings = listings.filter(i => !blacklist.includes(i.market));
 
-  chrome.runtime.sendMessage({ from: 'pricempire', data: listings });
+  getBrowser().runtime.sendMessage({ from: 'pricempire', data: listings });
 });
-

@@ -1,3 +1,6 @@
+getBrowser = () => {
+  return typeof browser !== 'undefined' ? browser : chrome;
+}
 const waitForElement = (selector, interval, useXPath = false) => {
   return new Promise(resolve => {
     const checkInterval = setInterval(() => {
