@@ -19,7 +19,7 @@ This extension is not affialiated in any way to anything, it's totally independa
 - [ ] Display an estimated price based on market price and stickers value
 - [x] Working on
   - [x] Auctions
-  - [ ] Direct buys
+  - [x] Direct buys
 
 ## Known issues at current release
 - Doesn't take into account special patterns and finishes (like AK-47 661, or Saphire/Ruby/...)
