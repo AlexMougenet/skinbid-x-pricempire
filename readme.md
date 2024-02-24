@@ -2,10 +2,10 @@
 
 This browser extension (add-on) will add a few extra info on items pages on Skinbid, based on live data extracted from Pricempire.
 This extension is not affialiated in any way to anything, it's totally independant and non official.
+Tested on Brave and Chrome, but has been developed to be compatible on other browsers.
 
 ## Installation
-(this process will be simplified later)
-- Clone this repo (download the source code)
+- Download the [latest release](https://github.com/AlexMougenet/skinbid-x-pricempire/releases/latest) (it's the source code) and unzip it
 - Go to your browser's extension page (chrome://extensions/)
 - On the top right, enable developper mode
 - On the top left, load unpackaged extension
