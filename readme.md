@@ -5,7 +5,7 @@ This extension is not affialiated in any way to anything, it's totally independa
 Tested on Brave and Chrome, but has been developed to be compatible on other browsers.
 
 ## Installation
-- Download the [latest release](https://github.com/AlexMougenet/skinbid-x-pricempire/releases/latest) (it's the source code) and unzip it
+- Download the [latest release](https://github.com/AlexMougenet/skinbid-x-pricempire/releases/latest) and unzip it
 - Go to your browser's extension page (chrome://extensions/)
 - On the top right, enable developper mode
 - On the top left, load unpackaged extension
