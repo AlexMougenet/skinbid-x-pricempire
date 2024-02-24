@@ -23,4 +23,4 @@ Tested on Brave and Chrome, but has been developed to be compatible on other bro
 
 ## Known issues at current release
 - Doesn't take into account special patterns and finishes (like AK-47 661, or Saphire/Ruby/...)
-- Doesn't work great if you open/load a lot of tabs in a very short time (too lazy to fixed, just slow it down bud)
+- Doesn't work great if you open/load a lot of tabs in a very short time (too lazy fix it, just slow it down bud)
