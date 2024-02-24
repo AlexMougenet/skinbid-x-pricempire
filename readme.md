@@ -15,11 +15,12 @@ This extension is not affialiated in any way to anything, it's totally independa
 
 ## Features and roadmap
 - [x] Display cheapest market name, price, and liquidity
-- [ ] Display sticker prices
-- [ ] Display an estimated price based on market price and stickers value
+- [x] Display sticker prices
+- [x] Display an estimated price based on market price and stickers value
 - [x] Working on
   - [x] Auctions
   - [x] Direct buys
 
 ## Known issues at current release
 - Doesn't take into account special patterns and finishes (like AK-47 661, or Saphire/Ruby/...)
+- Doesn't work great if you open/load a lot of tabs in a very short time (too lazy to fixed, just slow it down bud)

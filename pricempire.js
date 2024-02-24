@@ -10,11 +10,17 @@ waitForElement('//*[@id="__nuxt"]/div[1]/div[2]/div[3]/div[3]', 100, true).then(
     });
   });
 
-  // sort increasing
+  // sort by increasing
   listings.sort((a, b) => a.priceINT - b.priceINT);
   // remove shit websites
   const blacklist = ['Clash.gg', 'CSGOEmpire', 'Lis-Skins', 'CSGO500', 'Youpin', 'Market.CSGO', 'Loot.farm', 'CSGORoll'];
   listings = listings.filter(i => !blacklist.includes(i.market));
 
-  getBrowser().runtime.sendMessage({ from: 'pricempire', data: listings });
+  const urlParams = new URLSearchParams(window.location.search);
+  const index = urlParams.get('index');
+  getBrowser().runtime.sendMessage({ from: 'pricempire', data: listings, params: index ? { index: index } : null });
+});
+
+// Avoid stupid extension error about having no receiving ends, in the specific case that you use Pricempire directly (and Skinbid not being there to receive anything) ~anyway
+getBrowser().runtime.onMessage.addListener(() => {
 });
