@@ -6,7 +6,7 @@ waitForElement('//*[@id="__nuxt"]/div[1]/div[2]/div[3]/div[3]', 100, true).then(
       'market': line.querySelector('.text-lg').textContent,
       'price': line.querySelector('.text-2xl').textContent,
       'priceINT': +line.querySelector('.text-2xl').textContent.replace(',', '').replace('$', ''),
-      'liquidity': +line.querySelector('.text-slate-300').textContent.replace('Listings', '').replace(',', '.').trim()
+      'liquidity': +line.querySelector('.text-gray-800.font-thin.text-sm').textContent.replace('Listings', '').replace(',', '.').trim()
     });
   });
 
